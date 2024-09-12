@@ -1,0 +1,57 @@
+#███████╗██╗   ██╗████████╗ ██████╗ ███████╗██╗  ██╗ ██████╗ ██████╗
+#██╔════╝██║   ██║╚══██╔══╝██╔═══██╗██╔════╝██║  ██║██╔═══██╗██╔══██╗
+#█████╗  ██║   ██║   ██║   ██║   ██║███████╗███████║██║   ██║██████╔╝
+#██╔══╝  ██║   ██║   ██║   ██║   ██║╚════██║██╔══██║██║   ██║██╔═══╝
+#██║     ╚██████╔╝   ██║   ╚██████╔╝███████║██║  ██║╚██████╔╝██║
+#╚═╝      ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝
+#discord.gg/EPKcucew5z
+#discord.gg/https://discord.gg/GQAwq5uAwv
+
+title: "Events"
+content: "§eSéléctionnez un event :"
+event-command: true
+event-command-description: "Affiche un formulaire avec tous les événements disponibles."
+buttons: # LES BOUTONS SONT ÉQUIVALENTS A DES COMMANDES (mais des boutons dans la commande /event si vous l'avez activée au dessus)
+  outpost: # LE NOM DE LA COMMANDE
+    enabled: true
+    label: "Outpost" # LE NOM DU BOUTON QUI S'AFFICHERA DANS LA COMMANDE /event SI VOUS L'AVEZ ACTIVéE
+    command: "/outpost" # LA COMMANDE A EXECUTEE QUAND LE JOUEUR CLIQUE SUR LE BOUTON (si le bouton est activé, sinon que le /<nom de la commande> sera disponible pour cet event).
+    message: "§aVous avez été téléporté à l'outpost !" # LE MESSAGE A ENVOYé QUAND LE JOUEUR SE FAIT TéLéPORTER
+    description: "Permet de se téléporter à l'outpost" # LA DESCRIPTION DE LA COMMANDE
+    x: 100 # LES COORDONÉES OU LE JOUER DOIT SE FAIRE TÉLÉPORTER
+    y: 65
+    z: 100
+    world: "Factions" # LE MONDE DANS LEQUEL LE JOUEUR VA SE FAIRE TP AU COORDONEES AU DESSUS
+  koth:
+    enabled: true
+    label: "Koth"
+    command: "/koth"
+    message: "§aVous avez été téléporté au koth !"
+    description: "Permet de se téléporter au Koth"
+    x: 200
+    y: 70
+    z: 200
+    world: "Factions"
+  nexus:
+    enabled: true
+    label: "Nexus"
+    command: "/nexus"
+    message: "§aVous avez été téléporté au Nexus !"
+    description: "Permet de se téléporter au Nexus"
+    x: 300
+    y: 75
+    z: 300
+    world: "Factions"
+  exemple:
+    enabled: true
+    label: "Exemple Commande"
+    command: "/exemple"
+    message: "§aVous avez été téléporté à l'event d'exemple !"
+    description: "Permet de se téléporter à l'event d'exemple"
+    x: 400
+    y: 80
+    z: 400
+    world: "Factions"
+
+
+# AJOUTEZ AUTANT DE COMMANDES SIMILAIRE QUE VOUS VOULEZ EN RESPECTANT LE MÊME SCHEMA !!!
